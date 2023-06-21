@@ -37,6 +37,8 @@ int main()
 			//dan tampilkan disini
 			cout << baris << '\n';
 		}
+		//tutup file setelah selesai
+		infile.close();
 	}
 }
 
